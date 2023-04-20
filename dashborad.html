@@ -27,38 +27,38 @@
             <div class="dashboard-contaienr">
                 <div class="cash-deposit">
                     <h4>Deposit</h4>
-                    <h2>$00</h2>
+                    <h2>$<span id="status_deposit">00</span></h2>
                 </div>
                 <div class="cash-withdraw">
                     <h4>Withdraw</h4>
-                    <h2>$00</h2>
+                    <h2>$<span id="status_withdraw">100</span></h2>
                 </div>
                 <div class="balance">
                     <h4>Balance</h4>
-                    <h2>$1200</h2>
+                    <h2>$<span id="status_balance">1200</span></h2>
                 </div>
             </div>
         </section>
 
         <section class="page-container">
             <div class="deposit-witdraw">
-                
+                <!--Get user deoposit amnount-->
                 <div class="user_deposit">
                         <h3>Please, Deposit</h3>
                         <div class="deposit-input">
-                            <input type="number" name="" id="" placeholder="Amount you want to deposit">
-                            <button class="btn-simple">Deposit</button>
+                            <input type="number" name="" id="deposit-filed" placeholder="Amount you want to deposit">
+                            <button id="btn-deposit" class="btn-simple">Deposit</button>
                         </div>
                 </div>
 
+                <!--Get user withdraw amnount-->
                 <div class="user_withdraw">
-                    <h3>Please, Deposit</h3>
+                    <h3>Please, Withdraw</h3>
                     <div class="withdraw-input">
-                        <input type="number" name="" id="" placeholder="Amount you want to Withdraw">
-                        <button class="btn-simple">Withdraw</button>
+                        <input type="number" name="" id="withdraw-field" placeholder="Amount you want to Withdraw">
+                        <button id="btn-withdraw" class="btn-simple">Withdraw</button>
                     </div>
                 </div>
-                
             </div>
         </section>
 
