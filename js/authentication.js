@@ -10,7 +10,7 @@ document.getElementById('btn-login').addEventListener('click', function(){
     // verify email and password
 
     if(email === 'user@gmail.com' && pass === 'user1234'){
-        console.log('valid user');
+        window.location.href = 'dashborad.html';
         emaliField.value = '';
         passField.value = '';
     }

@@ -65,3 +65,117 @@
     padding: 14px 36px;
     transition: 0.1s all ease-in-out;
 }
+/* End Login athentication or home page */
+
+
+/* Start Dashboard Coding... */
+
+.dashboard-contaienr{
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 50px;
+
+}
+
+/* Deposit Box */
+.cash-deposit{
+    padding: 40px;
+    background-color: #00F700;
+    border-radius: 8px;
+}
+.cash-deposit h4{
+    font-size: 26px;
+    padding: 8px 0px;
+}
+
+/* Withdraw box */
+.page-wrapper{
+    background-color: #cff9fe74;
+}
+.cash-withdraw {
+    padding: 40px;
+    background-color: orange;
+    border-radius: 8px;
+}
+.cash-withdraw h4 {
+    font-size: 26px;
+    padding: 8px 0px;
+}
+
+/* Balance Box */
+.balance{
+    padding: 40px;
+    background-color: rgb(167, 255, 34);
+    border-radius: 8px;
+}
+
+.balance h4 {
+    font-size: 26px;
+    padding: 8px 0px;
+}
+
+
+.deposit-witdraw{
+    margin-top: 60px;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 40px;
+
+}
+
+.user_deposit{
+    color: white;
+    padding: 60px 40px;
+    background-color:  blueviolet;
+    border-radius: 8px;
+}
+
+.user_deposit h3{
+    font-size: 20px;
+    padding-bottom: 10px;
+}
+
+.deposit-input input{
+    width: 68%;
+    padding: 15px 12px;
+    outline: none;
+    border: none;
+    border-radius: 5px;
+}
+
+.btn-simple{
+    padding: 15px 30px;
+    border-radius: 5px;
+    border: none;
+    font-size: 14px;
+    text-transform: uppercase;
+    font-weight: bold;
+    cursor: pointer;
+    transition: 0.1s all ease-in-out;
+}
+
+.btn-simple:hover{
+    color: white;
+    background-color: black;
+}
+
+.user_withdraw {
+    color: white;
+    padding: 60px 40px;
+    background-color: rgb(179, 94, 10);
+    border-radius: 8px;
+}
+
+.user_withdraw h3 {
+    font-size: 20px;
+    padding-bottom: 10px;
+}
+
+.withdraw-input input {
+    width: 68%;
+    padding: 15px 12px;
+    outline: none;
+    border: none;
+    border-radius: 5px;
+}
